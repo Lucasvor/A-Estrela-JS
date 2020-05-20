@@ -51,6 +51,7 @@ function Spot(i, j) {
 		if (j > 0) {
 			this.neighbors.push(grid[i][j - 1]);
 		}
+		
 		//Com vizinhos na Diagonal
 		// if(i > 0 && j > 0){
 		// 	this.neighbors.push(grid[i-1][j - 1]);
